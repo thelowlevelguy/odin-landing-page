@@ -89,7 +89,7 @@ button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
+	margin-bottom: 7%;
 }
 
 .info-title{
@@ -118,3 +118,33 @@ button {
 
 }
 
+.image-description {
+	font-size: 18px;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	padding: 5% 0;
+}
+
+.quote div {
+	max-width: 47%;
+}
+
+.quote-content {
+	flex-wrap: wrap;
+	font-size: 36px;
+	font-weight: 300;
+	color: #1f2937;
+}
+
+.quote-content, .quote-author {
+	display: flex;
+	margin: 0 auto;
+}
+
+.quote-author{
+	justify-content: flex-end;
+	font-size: 24px;
+	font-weight: 900;
+}
