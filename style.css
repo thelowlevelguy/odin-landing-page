@@ -13,8 +13,7 @@ body{
 	flex-direction: column;
 	background-color: #1F2937;
 	color: #fff;
-	padding: 5px 16%;
-
+	padding: 5px 20%;
 
 }
 
@@ -51,9 +50,13 @@ body{
 
 .website-info{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	padding: 8% 0%;
+	padding: 10% 0px;	
+}
+
+.website-info .info{
+	max-width: 400px;
 }
 
 
@@ -66,14 +69,19 @@ button {
 	align-items: center;
 	padding: 8px 32px;
 	font-size: 20px;
-	font-weight: 600;
-	border-radius: 5px;
+	font-weight: 800;
+	border-radius: 8px;
 	margin: 10px 0px;
 }
 
 .welcome-image img {
-	width: 550px;
-	height: 270px;
+	width: 500px;
+	height: 250px;
 }
+
+
+
+
+
 
 
